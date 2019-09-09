@@ -1,6 +1,6 @@
-# Online-Musical-Quiz
+# Online-Movie-Quiz
 
-Here will be an application of the online quiz about music.
+Here will be an application of the online quiz about movies.
 
 ## Technology stack
 (this is not the last version)
