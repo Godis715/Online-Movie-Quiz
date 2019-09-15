@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <h1 v-text="sitename"></h1>
+            </header>
+
+            <div class="question-content">
+                <img v-bind:src="question.poster">
+
+                <form>
+                    <h2>{{question.title}}</h2>
+
+                    <div v-for="(answer, index) in question.answers">
+                        <input type="radio" v-bind:id="index | answerId" name="answer">
+                        <label v-bind:for="index | answerId">{{answer}}</label>
+                    </div>
+                    
+                    <div>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </div>                    
+                </form>    
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

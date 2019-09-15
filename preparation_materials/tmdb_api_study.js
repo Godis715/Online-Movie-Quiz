@@ -9,8 +9,7 @@ const whatMovie = process.argv[2];
 
 /* to interact with TMDB's APIs 
  you have to get api_key and place into the path below */
-
-
+ 
 new Promise(function(resolve, reject) {
     fs.readFile('tmdb_key.txt', 'utf8', function(err, contents) {
         if (err) reject(err);

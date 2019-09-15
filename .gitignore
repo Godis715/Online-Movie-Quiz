@@ -104,7 +104,7 @@ venv.bak/
 .mypy_cache/
 
 # file with a key
-preparation_materials/tmdb_key.txt
+tmdb_api_key.txt
 
 # node.js modules
 node_modules/
