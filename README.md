@@ -5,6 +5,8 @@ Here will be an application of the online quiz about movies.
 ## Technology stack
 (this is not the last version)
 
-Backend: PostgreSQL for data management, Node.js for the server, Pyhton for data works
+Whole application will based on AWS.
 
-Frontend: Vue.js
+Frontend: Vue.js, Axios
+
+Backend: AWS Services: S3, API Gateway, DynamoDB, Lambda
