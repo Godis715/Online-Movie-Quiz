@@ -5,7 +5,7 @@ Here will be an application of the online quiz about movies.
 ## Technology stack
 (this is not the last version)
 
-Whole application will based on AWS.
+Whole application will be based on AWS.
 
 Frontend: Vue.js, Axios
 
