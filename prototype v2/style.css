@@ -1,6 +1,5 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: darkblue;
 }
 
 .question-content {
@@ -10,10 +9,8 @@ body {
 
 form {
     margin: 2rem 0 0 3rem;
-    align-content: flex-start;
 }
 
 form > div > input[type=submit] {
     margin-top: 1rem;
 }
-

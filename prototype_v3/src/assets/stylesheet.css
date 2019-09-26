@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(10, 36, 80);
+    margin: 0;
+}
+
+header {
+    background-color: rgb(5, 77, 110);
+    padding-left: 1rem;
+}
+
+.question-content {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgb(179, 255, 219);
+    overflow: hidden;
+    background-color: rgb(5, 77, 110);
+}
+
+.answer-form {
+    margin: 1rem 0 0 3rem;
+    padding: 1rem;
+}
+
+.answer-form > h2 {
+    font-size: 2rem;
+}
+
+.answer-form > div > input[type=submit] {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(240, 111, 229);
+    padding: 0.5rem 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.answer-form > div > input[type=submit]:hover {
+    transition: 0.1s;
+    transform: scale(1.05);
+}
+
+.answer-form > div > input[type=submit]:active {
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+
+.nav-bar-item {
+    display: inline-block;
+}
+
+.nav-bar-item:not(:last-child) {
+    margin-right: 2rem;
+    border-right: 2px solid rgb(179, 255, 219);
+}
+
+.nav-bar-item > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-bar-item:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.timer {
+    color: rgb(43, 255, 156);
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
